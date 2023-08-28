@@ -19,4 +19,4 @@ smpacker.exe \[options\] \<inputfile\> \<outfile\>
     * Extract input binary, perform imports
     * Execute the input binary's entry point
 
-Nesting will not work.
+Nesting will "work" but the innermost carrier will overwrite the nested binary with itself so it will turn back into a single carrier.
