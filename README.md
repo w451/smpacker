@@ -8,7 +8,7 @@ smpacker.exe \[options\] \<inputfile\> \<outfile\>
 * The carrier contains two sections: .data and .text.
 * The .data section contains an XORKEY struct and the input binary
 * The .text section contains code to do the following:
-  * Resolve required WinAPI functions
+  * Manually resolve required WinAPI functions
   * Decrypt the input binary
   * Check: if the last time the carrier was modified is more than 15s ago, then
     * Create new XORKEY and encrypt input binary
