@@ -18,3 +18,5 @@ smpacker.exe \[options\] \<inputfile\> \<outfile\>
   * Else
     * Extract input binary, perform imports
     * Execute the input binary's entry point
+
+Nesting will not work.
