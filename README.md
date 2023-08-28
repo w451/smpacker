@@ -19,5 +19,7 @@ smpacker.exe \[options\] \<inputfile\> \<outfile\>
     * Extract input binary, perform imports
     * Execute the input binary's entry point
 
+## Current limitations
+
 1) Nesting will "work" but the innermost carrier will overwrite the nested binary with itself so it will turn back into a single carrier.
 2) CLI applications will "work" but due to the async nature of self-modifying applications console output will get messed up.
